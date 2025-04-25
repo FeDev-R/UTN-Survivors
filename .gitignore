@@ -1,0 +1,53 @@
+# === Visual Studio ===
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.ipch
+*.obj
+*.log
+*.tlog
+*.pdb
+*.idb
+*.lastbuildstate
+
+# === Compiled binaries ===
+*.exe
+*.dll
+*.lib
+*.exp
+
+# === SFML or C++ project folders ===
+build/
+bin/
+debug/
+release/
+x64/
+x86/
+out/
+
+# === Temporary / backup files ===
+*.tmp
+*.bak
+*.old
+*.swp
+*.~*
+
+# === CMake (por si usás en algún momento) ===
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# === Git ===
+*.orig
+
+# === VSCode (si lo usás también) ===
+.vscode/
+*.code-workspace
+
+# === JetBrains CLion (si alguien lo abre con esto) ===
+.idea/
